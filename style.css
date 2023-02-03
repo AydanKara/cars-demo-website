@@ -46,6 +46,9 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+.navbar .fa-solid.fa-bars {
+    display: none;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -120,3 +123,25 @@ h1{
 .card.card-4 {
     background-image: url("./images/pic-4.png");
 }
+
+/* responsive start */
+
+@media (max-width: 768px) {
+    .container{
+        height: auto;
+    }
+    .navbar .navigation {
+        display: none;
+    }
+    .navbar .fa-solid.fa-bars {
+        display: inline-block;
+        color: #fff;
+        font-size: 26px;
+    }
+    .row{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
+
+/* responsive end */
