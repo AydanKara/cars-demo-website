@@ -169,6 +169,7 @@ h1 {
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
+    position: relative;
   }
   h1 {
     font-size: 80px;
@@ -182,6 +183,10 @@ h1 {
   }
   .card .card-desc {
     font-size: 14px;
+  }
+  .footer {
+    position: unset;
+    width: auto;
   }
 }
 
