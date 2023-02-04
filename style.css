@@ -145,6 +145,7 @@ h1 {
   margin: 2px;
   font-size: 18px;
   transition: .3s ease all;
+  color: #000;
 }
 .footer .icons i:hover {
   color: white;
