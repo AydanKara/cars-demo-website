@@ -10,7 +10,7 @@ function mobileMenuFunc() {
     });
 
     closeMobileMenu.addEventListener("click", function () {
-        mobileMenu.style.top = "-100%";
+        mobileMenu.style.top = "-120%";
     });
 
     /* click outside start */
@@ -19,7 +19,7 @@ function mobileMenuFunc() {
             !event.composedPath().includes(mobileMenu) &&
             !event.composedPath().includes(btnOpenMobileMenu)
         ) {
-            mobileMenu.style.top = "-100%";
+            mobileMenu.style.top = "-120%";
         }
     });
     /* click outside end */
